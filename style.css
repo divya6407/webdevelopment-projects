@@ -1,0 +1,108 @@
+.guidelines
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    z-index: 10;
+    color: white;
+}
+body{
+    margin:50px;background-image: url("image/logo.jpg");
+    margin-right: 20px;
+}
+
+.header
+{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #B0C4DE;
+    
+}
+.t_images
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-items: center;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+    
+    
+}
+.row
+{
+    
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.b_cap {
+    background: linear-gradient(135deg, #0A3161, #FFFFFF, #B31942); /* Captain America: blue-white-red */
+}
+
+.b_clint {
+    background: linear-gradient(135deg, #5D4037, #D1A659); /* Hawkeye: brown-purple blend */
+}
+
+.b_hulk {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32); /* Hulk: light green to dark green */
+}
+
+.b_tony {
+    background: linear-gradient(135deg, #FF4500, #FFD700); /* Iron Man: red to gold */
+}
+
+.b_nat {
+    background: linear-gradient(135deg, #8B0000, #000000); /* Black Widow: dark red to black */
+}
+
+
+
+.b_scarlet {
+    background: linear-gradient(135deg, #FF0000, #800000); /* Scarlet Witch: bright red to dark red */
+}
+
+.b_thor {
+    background: linear-gradient(135deg, #1E90FF, #B0C4DE); /* Thor: blue to silver */
+}
+
+.b_cap,.b_clint,.b_hulk,.b_tony,.b_nat,.b_scarlet,.b_thor
+{
+    margin-top: 50px;
+    position: relative;
+    width:200px;
+    height: auto;
+    border:2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.b_cap:hover,.b_clint:hover,.b_hulk:hover,.b_tony:hover,.b_nat:hover,.b_scarlet:hover,.b_thor:hover{
+    transform:scale(1.1);
+    opacity: 1;
+}
+button{
+    margin-left: 55px;
+    margin-right: 55px;
+    padding: 9px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: #0A3161;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.inner_text_cap{
+    color: white;
+}
